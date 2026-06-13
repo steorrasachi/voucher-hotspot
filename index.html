@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Pelanggan STARNET</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 650px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        header h1 {
+            color: #0056b3;
+            margin: 0;
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        header p {
+            color: #666666;
+            margin: 5px 0 0 0;
+            font-size: 13px;
+        }
+        h2 {
+            color: #222222;
+            font-size: 16px;
+            border-left: 4px solid #0056b3;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        /* Gaya Tabel Harga */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0056b3;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        td {
+            border-bottom: 1px solid #eeeeee;
+            font-size: 13.5px;
+        }
+        .price {
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        /* Gaya Daftar Panduan */
+        ol {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ol li {
+            margin-bottom: 8px;
+            font-size: 13.5px;
+        }
+        ol li strong {
+            color: #0056b3;
+        }
+
+        /* Gaya Kotak Kontak Bantuan */
+        .contact-box {
+            background-color: #ebf3fc;
+            border: 1px solid #cce2ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .contact-item {
+            margin-bottom: 8px;
+            font-size: 13.5px;
+        }
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 35px;
+            font-size: 11px;
+            color: #888888;
+            border-top: 1px solid #eeeeee;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>STARNET HOTSPOT</h1>
+        <p>Internet Murah Unlimited &amp; Koneksi Stabil</p>
+    </header>
+
+    <h2>Daftar Harga Voucher Hotspot</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Paket</th>
+                <th>Masa Aktif</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Voucher 2 Jam</td>
+                <td>2 Jam</td>
+                <td class="price">Rp 1.000</td>
+            </tr>
+            <tr>
+                <td>Voucher 5 Jam</td>
+                <td>5 Jam</td>
+                <td class="price">Rp 2.000</td>
+            </tr>
+            <tr>
+                <td>Voucher 12 Jam</td>
+                <td>12 Jam</td>
+                <td class="price">Rp 3.000</td>
+            </tr>
+            <tr>
+                <td>Voucher 24 Jam</td>
+                <td>24 Jam (1 Hari)</td>
+                <td class="price">Rp 5.000</td>
+            </tr>
+            <tr>
+                <td>Voucher Mingguan</td>
+                <td>7 Hari (1 Minggu)</td>
+                <td class="price">Rp 20.000</td>
+            </tr>
+            <tr>
+                <td>Voucher Bulanan</td>
+                <td>30 Hari (1 Bulan)</td>
+                <td class="price">Rp 55.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Panduan Cara Login Hotspot</h2>
+    <ol>
+        <li>Hubungkan perangkat Anda (HP / Laptop) ke WiFi bernama <strong>STARNET</strong>.</li>
+        <li>Tunggu beberapa saat sampai halaman login otomatis terbuka di layar Anda.</li>
+        <li>Jika halaman login tidak muncul, buka browser Google Chrome, lalu ketik alamat IP login hotspot Anda di bar atas.</li>
+        <li>Masukkan <strong>Kode Voucher</strong> yang sudah Anda beli pada kolom yang tersedia.</li>
+        <li>Klik tombol <strong>Login / Connect</strong> untuk mulai berselancar.</li>
+        <li><em>Penting: Simpan kode voucher Anda. Jika keluar sebelum habis masa aktif, silakan masukkan kembali kode tersebut.</em></li>
+    </ol>
+
+    <h2>Layanan Pelanggan &amp; Gangguan</h2>
+    <div class="contact-box">
+        <p style="margin-top: 0; font-weight: 600; font-size: 14px; color: #111;">Mengalami kendala jaringan atau ingin membeli voucher?</p>
+        <div class="contact-item">
+            <strong>Admin Utama:</strong> 0812-xxxx-xxxx
+        </div>
+        <div class="contact-item">
+            <strong>Teknisi Lapangan:</strong> 0857-xxxx-xxxx
+        </div>
+        <a href="https://wa.me/62812xxxxxxxx" target="_blank" class="btn-whatsapp">Hubungi via WhatsApp</a>
+    </div>
+
+    <footer>
+        &copy; 2026 STARNET - Internet Murah Unlimited. All Rights Reserved.
+    </footer>
+</div>
+
+</body>
+</html>
