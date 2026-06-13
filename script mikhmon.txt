@@ -19,7 +19,7 @@ if ($getprice == "750") {
     border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/L5Q8MrBF/1000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/1000.png') no-repeat;
     background-size:contain;
     ";
 } elseif ($getprice == "1500") {
@@ -27,7 +27,7 @@ if ($getprice == "750") {
     border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/T1N3XZqY/2000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/2000.png') no-repeat;
     background-size:contain;
     ";
 } elseif ($getprice == "2250") {
@@ -35,7 +35,7 @@ if ($getprice == "750") {
     border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/Zns5h1FJ/3000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/3000.png') no-repeat;
     background-size:contain;
     ";
 } elseif ($getprice == "4000") {
@@ -43,7 +43,7 @@ if ($getprice == "750") {
 	border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/T1N3XZq2/5000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/5000.png') no-repeat;
     background-size:contain;
     ";
     } elseif ($getprice == "8500") {
@@ -51,7 +51,7 @@ if ($getprice == "750") {
 	border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/5yK2MZq4/10000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/10000.png') no-repeat;
     background-size:contain;
     ";
     } elseif ($getprice == "18000") {
@@ -59,7 +59,7 @@ if ($getprice == "750") {
 	border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/wM4jdSc7/20000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/20000.png') no-repeat;
     background-size:contain;
     ";
 } elseif ($getprice == "50000") {
@@ -67,7 +67,7 @@ if ($getprice == "750") {
     border:none;
     width: 350px;
     height:50px;
-    background: url('https://i.postimg.cc/RhpZzjQt/55000.png') no-repeat;
+    background: url('https://steorrasachi.github.io/voucher-hotspot/55000.png') no-repeat;
     background-size:contain;
     ";
 }
